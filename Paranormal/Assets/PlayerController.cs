@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour {
 	public KeyCode moveLeft;
 	public KeyCode moveRight;
 	public KeyCode moveBackward;
+	public KeyCode run;
     
     void Start ()
     {
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour {
 		
     }
 
-    void FixedUpdate ()
+    void Update ()
     {
 	/*
         float moveHorizontal = Input.GetAxis ("Horizontal");
@@ -34,9 +35,8 @@ public class PlayerController : MonoBehaviour {
 		*/
 		
 		Movement();
-		
-        if (Input.GetButtonDown("escape"))
-            Cursor.lockState = CursorLockMode.None;
+		Run();
+   
     }
 
 
@@ -59,6 +59,19 @@ public class PlayerController : MonoBehaviour {
 		if (Input.GetKey (moveBackward)) {
 			gameObject.transform.position -= gameObject.transform.forward * speed * Time.deltaTime;
 			}
+	}
+
+	void Run()
+	{
+		if (Input.GetKeyDown(run))
+			{
+				speed *= 2;
+				
+			}
+		if (Input.GetKeyUp(run))
+					{
+						speed /= 2;
+					}
 	}
 
 }
