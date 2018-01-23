@@ -59,6 +59,7 @@
      <Compile Include="Assets\Maya Assets\Title Screen\Scripts\SetAudioLevels.cs" />
      <Compile Include="Assets\Maya Assets\Title Screen\Scripts\ShowPanels.cs" />
      <Compile Include="Assets\Maya Assets\Title Screen\Scripts\StartOptions.cs" />
+     <Compile Include="Assets\MoveObject.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\PlayerLookController.cs" />
      <None Include="Assets\Maya Assets\Title Screen\Fonts\OpenSans\License!.txt" />
