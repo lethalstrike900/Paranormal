@@ -20,7 +20,7 @@ public class MoveObject : MonoBehaviour {
 	void OnMouseDown()
 	{
 		item.GetComponent<Rigidbody>().useGravity = false;
-		item.GetComponent<Rigidbody> ().isKinematic = true;
+		//item.GetComponent<Rigidbody> ().isKinematic = true;
 		item.transform.position = guide.transform.position ;
 		item.transform.rotation = guide.transform.rotation;
 		item.transform.parent = tempParent.transform;
