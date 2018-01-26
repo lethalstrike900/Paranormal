@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 22f129c8e71814848b107fe1ce30aa4b
+timeCreated: 1516307998
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Pathway Gothic One
+  fontNames:
+  - Pathway Gothic One
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
